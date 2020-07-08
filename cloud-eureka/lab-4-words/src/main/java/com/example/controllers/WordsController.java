@@ -12,8 +12,7 @@ public class WordsController {
     private String words;
 
     @GetMapping("/")
-    public @ResponseBody
-    String getWords() {
+    public @ResponseBody String getWords() {
         String[] wordsArray = words.split(",");
         int i = (int) Math.round(Math.random() * (wordsArray.length - 1));
         return wordsArray[i];
