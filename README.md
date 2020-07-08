@@ -19,18 +19,19 @@ This is a study example to learn spring-cloud-eureka framework. It contains serv
 
 ##### lab-4-sentence
 This client create sentence using `lab-4-words` project. This one also use `lab-3-server` 
-to get properties for each instance (except one of `noun` instance) from `application.properties` file.
+to get properties for each instance.
 
 ##### lab-4-words
-This project contains 6 instances:
+This project contains 5 instances:
  - `lab-4-adjective` (1 instance)
  - `lab-4-article` (1 instance)
- - `lab-4-noun` (2 instances)
+ - `lab-4-noun` (1 instances)
  - `lab-4-subject` (1 instance)
  - `lab-4-verb` (1 instance)
 
 Each instance randomly generates word associated with his properties which he gets from `lab-3-server`.
 
 ### cloud-ribbon
-This is a study example to learn spring-cloud-ribbon framework. It works as a cloud-eureka but it also uses 
-ribbon-framework to use both of `noun` instances with using `load-balancer`.
+This is a study example to learn spring-cloud-ribbon framework. This project contains`lab-5-sentence` which uses 
+ribbon framework and `lab-5-words` which is a duplicate of `lab-4-words` but it also contains one more instance 
+for `lab-4-noun` service.
