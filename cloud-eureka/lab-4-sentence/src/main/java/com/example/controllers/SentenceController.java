@@ -1,7 +1,5 @@
 package com.example.controllers;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,18 +13,10 @@ import java.util.List;
 @RestController
 public class SentenceController {
 
-    @Autowired
-    private DiscoveryClient discoveryClient;
+    private final DiscoveryClient discoveryClient;
 
-    @Value("${words}")
-    private String words;
-
-    @GetMapping("/")
-    public @ResponseBody
-    String getWords() {
-        String[] wordsArray = words.split(",");
-        int i = (int) Math.round(Math.random() * (wordsArray.length - 1));
-        return wordsArray[i];
+    public SentenceController(DiscoveryClient discoveryClient) {
+        this.discoveryClient = discoveryClient;
     }
 
     @GetMapping("/sentence")
