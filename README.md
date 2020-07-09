@@ -1,10 +1,10 @@
 # cloud-microservices
 
-This is study examples to learn spring-cloud framework. At now it contains 
-[cloud-config](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/cloud-config),
-[cloud-eureka](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/cloud-eureka),
-[cloud-ribbon](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/cloud-ribbon), and
-[cloud-feign](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/cloud-rfeign), and projects.
+This is study examples to learn spring-cloud framework. At now it contains:
+ - [cloud-config](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/01.cloud-config)
+ - [cloud-eureka](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/02.cloud-eureka)
+ - [cloud-ribbon](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/03.cloud-ribbon)
+ - [cloud-feign](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/04.cloud-feign)
 
 
 ____________________
