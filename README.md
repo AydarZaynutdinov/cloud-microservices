@@ -7,13 +7,13 @@ This is study examples to learn spring-cloud framework. At now it contains
 
 
 
-### cloud-config
+### 01.cloud-config
 This is a study example to learn spring-cloud-config framework. It contains server `lab-3-server` and 
 one client `lab-3-client`. The server application uses [ConfigData repository](https://github.com/AydarZaynutdinov/ConfigData) 
 to get properties for client.
 
 
-### cloud-eureka
+### 02.cloud-eureka
 This is a study example to learn spring-cloud-eureka framework. It contains server `lab-4-eureka-server` and 
 2 kinds of clients `lab-4-sentence` and `lab-4-words`. 
 
@@ -31,7 +31,7 @@ This project contains 5 instances:
 
 Each instance randomly generates word associated with his properties which he gets from `lab-3-server`.
 
-### cloud-ribbon
+### 03.cloud-ribbon
 This is a study example to learn spring-cloud-ribbon framework. This project contains`lab-5-sentence` which uses 
 ribbon framework and `lab-5-words` which is a duplicate of `lab-4-words` but it also contains one more instance 
 for `lab-4-noun` service.
