@@ -7,13 +7,9 @@ import org.springframework.stereotype.Service;
 public class SentenceServiceImpl implements SentenceService {
 
     private final AdjectiveService adjectiveService;
-
     private final ArticleService articleService;
-
     private final NounService nounService;
-
     private final SubjectService subjectService;
-
     private final VerbService verbService;
 
     public SentenceServiceImpl(

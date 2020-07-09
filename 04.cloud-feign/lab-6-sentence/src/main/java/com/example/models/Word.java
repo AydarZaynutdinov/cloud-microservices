@@ -4,7 +4,12 @@ public class Word {
 
     private String value;
 
+    public Word() {
+        super();
+    }
+
     public Word(String value) {
+        super();
         this.value = value;
     }
 

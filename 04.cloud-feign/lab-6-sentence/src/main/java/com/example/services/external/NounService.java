@@ -1,11 +1,12 @@
-package com.example.services;
+package com.example.services.external;
 
+import com.example.models.Word;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@FeignClient("ADJECTIVE")
+@FeignClient("NOUN")
 public interface NounService {
 
     @GetMapping("/")
-    void getWord();
+    Word getWord();
 }
