@@ -22,11 +22,11 @@ public class SentenceController {
     @GetMapping("/sentence")
     public @ResponseBody
     String getSentence() {
-        return getWords("LAB-4-SUBJECT") + " "
-                + getWords("Lab-4-VERB") + " "
-                + getWords("Lab-4-ARTICLE") + " "
-                + getWords("Lab-4-ADJECTIVE") + " "
-                + getWords("Lab-4-NOUN") + ".";
+        return getWords("SUBJECT") + " "
+                + getWords("VERB") + " "
+                + getWords("ARTICLE") + " "
+                + getWords("ADJECTIVE") + " "
+                + getWords("NOUN") + ".";
     }
 
     public String getWords(String serviceName) {
