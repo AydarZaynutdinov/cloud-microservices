@@ -5,6 +5,7 @@ This is study examples to learn spring-cloud framework. At now it contains:
  - [cloud-eureka](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/02.cloud-eureka)
  - [cloud-ribbon](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/03.cloud-ribbon)
  - [cloud-feign](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/04.cloud-feign)
+ - [cloud-hystrix](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/05.cloud-hystrix)
 
 
 ____________________
@@ -38,5 +39,9 @@ This is a study example to learn spring-cloud-ribbon framework. This application
 
 ____________________
 ### 04.cloud-feign
-This is a study example to learn spring-cloud-feign framework. This application work as a cloud-feign, but this one uses spring-cloud-feign framework 
-to manipulate instances of `lab-6-words` from `lab-6-sentence` client without using `RestTemplate`.
+This is a study example to learn spring-cloud-feign framework. This application work as a cloud-ribbon, but this one also uses spring-cloud-feign framework to manipulate instances of `lab-6-words` from `lab-6-sentence` client without using `RestTemplate`.
+
+
+____________________
+### 05.cloud-hystrix
+This is a study example to learn spring-cloud-hystrix framework. This application work as a cloud-feign, but this one also uses spring-cloud-hustrix framework to give default words if some clients are unavailable.
