@@ -7,6 +7,7 @@ This is study examples to learn spring-cloud framework. At now it contains:
  - [cloud-feign](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/04.cloud-feign)
  - [cloud-hystrix](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/05.cloud-hystrix)
  - [cloud-bus](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/06.cloud-bus)
+ - [cloud-zuul](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/07.cloud-zuul)
 
 
 ____________________
@@ -51,3 +52,9 @@ This is a study example to learn spring-cloud-hystrix framework. This applicatio
 ____________________
 ### 06.cloud-bus
 This is a study example to learn spring-cloud-bus framework. This application work as a cloud-config, but this one also uses spring-cloud-bus framework to get updated properties from git after POST request (`bus-refresh` to the server-side).
+
+
+____________________
+### 07.cloud-zuul
+This is a study example to learn spring-cloud-zuul framework. This application work as a cloud-hystrix, but this one also uses spring-cloud-zuul framework and thymeleaf framework. The `lab-9-api-gateway` use zuul to get randomly generated words from other services.
+In this application, we don't use directly ways to other services. All this work zuul does(discovery client).
