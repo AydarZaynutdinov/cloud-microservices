@@ -6,6 +6,7 @@ This is study examples to learn spring-cloud framework. At now it contains:
  - [cloud-ribbon](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/03.cloud-ribbon)
  - [cloud-feign](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/04.cloud-feign)
  - [cloud-hystrix](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/05.cloud-hystrix)
+ - [cloud-bus](https://github.com/AydarZaynutdinov/cloud-microservices/tree/master/06.cloud-bus)
 
 
 ____________________
@@ -45,3 +46,8 @@ This is a study example to learn spring-cloud-feign framework. This application 
 ____________________
 ### 05.cloud-hystrix
 This is a study example to learn spring-cloud-hystrix framework. This application work as a cloud-feign, but this one also uses spring-cloud-hustrix framework to give default words if some clients are unavailable.
+
+
+____________________
+### 06.cloud-bus
+This is a study example to learn spring-cloud-bus framework. This application work as a cloud-config, but this one also uses spring-cloud-bus framework to get updated properties from git after POST request (`bus-refresh` to the server-side).
